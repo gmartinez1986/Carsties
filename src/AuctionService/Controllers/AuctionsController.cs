@@ -21,6 +21,8 @@ namespace AuctionService.Controllers
         }
 
 
+
+
         [HttpGet]
         public async Task<ActionResult<List<AuctionDto>>> GetAuctions()
         {
