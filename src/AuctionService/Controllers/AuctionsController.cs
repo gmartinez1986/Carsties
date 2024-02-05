@@ -20,6 +20,7 @@ namespace AuctionService.Controllers
             _mapper = mapper;
         }
 
+
         [HttpGet]
         public async Task<ActionResult<List<AuctionDto>>> GetAuctions()
         {
