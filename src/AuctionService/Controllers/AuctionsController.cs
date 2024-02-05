@@ -100,6 +100,7 @@ namespace AuctionService.Controllers
             }
         }
 
+
         [HttpDelete("{id}")]
         public async Task <ActionResult> DeleteAuction(Guid id)
         {
