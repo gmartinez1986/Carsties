@@ -20,7 +20,6 @@ namespace AuctionService.Controllers
             _mapper = mapper;
         }
 
-
         [HttpGet]
         public async Task<ActionResult<List<AuctionDto>>> GetAuctions()
         {
@@ -99,7 +98,6 @@ namespace AuctionService.Controllers
                 throw;
             }
         }
-
 
         [HttpDelete("{id}")]
         public async Task <ActionResult> DeleteAuction(Guid id)
